@@ -1,0 +1,36 @@
+{
+  "name": "dockerized-crra-with-make",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "reason-scripts": "0.8.0"
+  },
+  "keywords": [
+    "create-react-app",
+    "reason-react",
+    "Bucklescript",
+    "ReasonML",
+    "Digital Ocean",
+    "ubuntu",
+    "Dockerfile",
+    "droplets",
+    "deploying",
+    "development"
+  ],
+  "description":
+    "How to dockerize your ReasonReact app for development in a container",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepare": "npm link bs-platform"
+  },
+  "devDependencies": {
+    "bs-jest": "^0.3.2",
+    "reason-react": "^0.4.1"
+  }
+}
